@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Merriweather+Sans:wght@300&family=Merriweather:wght@300&family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/bgsearch.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background-color: #e1cda0;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 22%;
+    height: auto;
+    margin: 0% 2%;
+    min-height: 200px;
+    min-width: 250px;
+}
+
+.titulo {
+    color: black;
+    margin-top: 5%;
+    font-size: xx-large;
+}
+
+.tit1 {
+    font-family: 'Lilita One', cursive;
+    font-size: 90px;
+}
+
+.tit2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: small;
+}
+
+.links {
+    margin: 0% 3%;
+    display: flex;
+    position: relative;
+    right: 10%;
+    font-family: 'Merriweather', serif;
+}
+
+.link2 {
+    margin-right: 2%;
+    margin-left: 2%;
+
+}
+
+.link1 {
+    margin-right: 2%;
+    margin-left: 2%;
+
+}
+
+.head {
+    display: flex;
+
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 3rem;
+    align-items: center;
+    background-color: #BD7031;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.sep {
+    width: 100%;
+    height: 1rem;
+    align-items: center;
+    background-color: #BD7031;
+}
+
+.sec {
+    width: 100%;
+    height: 10rem;
+    background-color: #e1cda0;
+}
+
+.sec1 {
+    font-family: 'Merriweather', serif;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0.5%;
+}
+
+.sec2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0.5%;
+}
+
+.susu {
+    background-color: #e1cda0;
+}
+
+.succulents {
+    font-size: 150%;
+    color: rgb(48, 42, 33);
+    display: flex;
+    justify-content: space-between;
+}
+
+.suc {
+    background-color: rgb(152, 163, 73);
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin: 2% 8.5%;
+}
+
+.succ {
+    background-color: rgb(152, 163, 73);
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin: 2% 0%;
+}
+
+.sucdesc {
+    font-size: 150%;
+    color: rgb(48, 42, 33);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.desc {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    background-color: rgb(221, 218, 190);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: justify;
+    justify-content: center;
+
+}
+
+
+.fotos{
+    display: flex;
+    justify-content: space-between;  
+    
+
+}
+
+.sucimg{
+    margin: 0% 7.5%;
+    margin-bottom: 2%;
+    height: 250px;
+    width: auto;
+}
+
+.sucimgc {
+    
+    height: 250px;
+    width: auto;
+}
